@@ -154,9 +154,9 @@ yat:
 #   - tags.html
 #   - about.md
 
-# Page default value
-# defaults:
-#   home:
+  Page default value
+  defaults:
+    home:
       heading: "Assignment 2"
       subheading: "Tô Phúc Thành - 25127499"
 #     banner: "Your image url"
