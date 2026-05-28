@@ -1,200 +1,148 @@
-<div align="center">
-  <br>
+# Assignment 2 Report
 
-  <a href="https://github.com/jeffreytse/jekyll-theme-yat">
-    <img alt="jekyll-theme-yat →~ jekyll" src="https://user-images.githubusercontent.com/9413601/106478481-346fdf00-64e4-11eb-9385-1ab5329c3234.png" width="600">
-  </a>
 
-  <h1>JEKYLL YAT THEME</h1>
 
-</div>
+# Step 1: Create a GitHub Pages Repository
 
-<h4 align="center">
-  <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
-</h4>
+1. Open the GitHub website:
+   https://github.com
 
-<p align="center">
-  <a href="https://jeffreytse.github.io/jekyll-theme-yat">
-    <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg"
-      alt="Github Pages" />
-  </a>
+2. Log in to the GitHub account.
 
-  <a href="https://badge.fury.io/rb/jekyll-theme-yat">
-    <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"
-      alt="Gem Version" />
-  </a>
+3. Click the **"+"** icon at the top-right corner.
 
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg"
-      alt="License: MIT" />
-  </a>
+4. Select **New repository**.
 
-  <a href="https://liberapay.com/jeffreytse">
-    <img src="https://img.shields.io/liberapay/goal/jeffreytse.svg?logo=liberapay"
-      alt="Donate (Liberapay)" />
-  </a>
+5. Create a new repository with the following settings:
 
-  <a href="https://patreon.com/jeffreytse">
-    <img src="https://img.shields.io/badge/support-patreon-F96854.svg?style=flat-square"
-      alt="Donate (Patreon)" />
-  </a>
+| Setting         | Value                     |
+| --------------- | ------------------------- |
+| Repository name | `your-username.github.io` |
+| Visibility      | Public                    |
 
-  <a href="https://ko-fi.com/jeffreytse">
-  <img height="20" src="https://www.ko-fi.com/img/githubbutton_sm.svg"
-  alt="Donate (Ko-fi)" />
-  </a>
-</p>
+Example:
 
-<div align="center">
-  <sub>Built with ❤︎ by
-  <a href="https://jeffreytse.net">jeffreytse</a> and
-  <a href="https://github.com/jeffreytse/jekyll-theme-yat/graphs/contributors">contributors </a>
-  </sub>
-</div>
-
-<br>
-
-Hey, nice to meet you, you found this [Jekyll][jekyll] theme. Here the
-_YAT (Yet Another Theme)_ is a modern responsive theme. It's quite
-clear, clean and neat for writers and posts. **If you are an elegant
-writer and focus on content, don't miss it.**
-
-<p align="center">
-Like this elegant theme? You can give it a star or sponsor me!<br>
-I will respect your crucial support and say THANK YOU!
-</p>
-
-<p align="center">
-
-  <img src="https://user-images.githubusercontent.com/9413601/91842897-6a840b00-ec87-11ea-95ca-52abcc1ac063.png" alt="demo-screenshot" width="100%"/>
-
-</p>
-
-<h4 align="center">BANNER</h4>
-
-<p align="center">
-
-  <img src="https://user-images.githubusercontent.com/9413601/123897812-ae729a00-d996-11eb-96b8-b76ba926f555.gif" alt="demo-screenshot" width="100%"/>
-
-</p>
-
-## Features
-
-- Support beautiful **Night Mode**.
-- Modern responsive web design.
-- Full layouts `home`, `post`, `tags`, `archive` and `about`.
-- Uses font awesome 5 for icons.
-- Beautiful page banner with image and video.
-- Beautiful Syntax Highlight using [highlight.js][highlight-js].
-- RSS support using [Jekyll Feed][jekyll-feed] gem.
-- Optimized for search engines using [Jekyll Seo Tag][jekyll-seo-tag] gem.
-- Sitemap support using [Jekyll Sitemap][jekyll-sitemap] gem.
-- Complex and flexible table support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- MathJAX and LaTeX optional support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Media (Youtube, Spotify, etc.) support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Diagram (PlantUML, Mermaid) support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Google Translation support.
-- New post tag support.
-
-Also, visit the [Live Demo][yat-live-demo] site for the theme.
-
-## Installation
-
-There are three ways to install:
-
-- As a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
-- As a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible).
-- Forking/directly copying all of the theme files into your project.
-
-### Gem-based Theme Method
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "jekyll-theme-yat"
+```text id="m2mjlwm"
+phucthanh.github.io
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+6. Check:
 
-```yaml
-theme: jekyll-theme-yat
+*  Add a README file
+
+7. Click **Create repository**.
+
+---
+
+# Step 2: Install GitHub Desktop
+
+1. Download GitHub Desktop from:
+   https://desktop.github.com/
+
+2. Install the application.
+
+3. Log in using the GitHub account.
+
+---
+
+# Step 3: Clone Repository Using GitHub Desktop
+
+1. Open GitHub Desktop.
+
+2. Select:
+
+```text id="2h4tl7"
+File → Clone Repository
 ```
 
-And then execute:
+3. Choose the repository:
 
-```bash
-$ bundle
+```text id="bdjz7o"
+your-username.github.io
 ```
 
-Or install it yourself as:
+4. Select a local folder to save the project.
 
-```bash
-$ gem install jekyll-theme-yat
+5. Click **Clone**.
+
+---
+
+# Step 4: Download the Jekyll Theme
+
+1. Open the YAT theme page:
+   http://jekyllthemes.org/themes/jekyll-theme-yat/
+
+2. Open the GitHub repository of the theme.
+
+3. Download the theme source code as ZIP.
+
+4. Extract the ZIP file.
+
+5. Copy all extracted files into the cloned repository folder.
+
+6. Replace existing files if necessary.
+
+---
+
+# Step 5: Edit the Website
+
+1. Open the repository folder using Visual Studio Code.
+
+2. Modify the website information such as:
+
+* Name
+* Introduction
+* Resume content
+* Skills
+* Projects
+* Contact information
+
+3. Save all edited files.
+
+---
+
+# Step 6: Commit Changes Using GitHub Desktop
+
+1. Return to GitHub Desktop.
+
+2. GitHub Desktop automatically detects changed files.
+
+3. In the bottom-left corner, enter a commit message:
+
+```text id="uwcqgn"
+Add GitHub Pages website and resume
 ```
 
-### Remote Theme Method with GitHub Pages
+4. Click:
 
-Remote themes are similar to Gem-based themes, but do not require `Gemfile` changes or whitelisting making them ideal for sites hosted with GitHub Pages.
-
-To install:
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "github-pages", group: :jekyll_plugins
+```text id="h7js0y"
+Commit to main
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+---
 
-```yaml
-# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
-remote_theme: "jeffreytse/jekyll-theme-yat"
+# Step 7: Push Files to GitHub
+
+1. After committing changes, click:
+
+```text id="kngn4j"
+Push origin
 ```
 
-And then execute:
+2. Wait for the upload process to complete.
 
-```bash
-$ bundle
+---
+
+
+# Step 8: Access the Website
+
+After several minutes, the website becomes available online.
+
+Example website URL:
+
+```text id="f2kwce"
+https://kocotenzz.github.io/
 ```
 
-### GitHub Pages without limitation
+---
 
-GitHub Pages runs in `safe` mode and only allows [a set of whitelisted plugins/themes](https://pages.github.com/versions/). **In other words, the third-party gems will not work normally**.
-
-To use the third-party gem in GitHub Pages without limitation:
-
-Here is a GitHub Action named [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) for Jekyll site deployment conveniently. 👍
-
-## Usage
-
-Add or update your available layouts, includes, sass and/or assets.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_data`, `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-yat.gemspec` accordingly.
-
-## Contributing
-
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
-
-You can start by [opening an issue](https://github.com/jeffreytse/jekyll-theme-yat/issues/new) describing the problem that you're looking to resolve and we'll go from there.
-
-## License
-
-This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © JeffreyTse.
-
-<!-- External links -->
-
-[jekyll]: https://jekyllrb.com/
-[yat-git-repo]: https://github.com/jeffreytse/jekyll-theme-yat/
-[yat-live-demo]: https://jeffreytse.github.io/jekyll-theme-yat/
-[jekyll-spaceship]: https://github.com/jeffreytse/jekyll-spaceship
-[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
-[jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
-[jekyll-feed]: https://github.com/jekyll/jekyll-feed
-[highlight-js]: https://github.com/highlightjs/highlight.js
